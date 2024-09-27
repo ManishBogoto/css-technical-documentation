@@ -1,0 +1,263 @@
+*{
+    margin: 0;;
+}
+
+#navbar{
+    line-height: 100%;
+    position: fixed;
+    min-width: 220px;
+    top: 0px;
+    left: 0px;
+    border-right: 1px dotted black;
+    width: 240px;
+    height: 100%;
+}
+
+#main-header{
+    background-color: #038e13;
+    color: #fff;
+    padding: 25px 15px;
+}
+
+#nav-links{
+    list-style-type: none;
+    padding: 0;  
+}
+
+#nav-links li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.667);
+    position: relative;
+    width: 88%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-links li:hover{
+    background-color: rgba(231, 231, 231, 0.667);
+    cursor: pointer;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 230px; 
+    width: 78%;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#container{
+    margin: 0 50px;
+}
+
+.main-section{
+    padding: 15px 0 15px 0;
+}
+
+.main-section header{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.section-info{
+    padding-top: 8px;
+}
+
+p{
+    padding: 8px 0;
+}
+
+h4{
+    margin: 15px 0 10px 0;
+    font-size: 17px;
+}
+
+#Different_Ways_to_Use_CSS ul{
+    margin: 15px;
+    padding: 0px;
+}
+
+#Different_Ways_to_Use_CSS li{
+    list-style-type: square;
+    margin: 10px 0;
+}
+
+#Different_Ways_to_Use_CSS a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin: 5px 0 15px 0;
+}
+
+#CSS_Syntax li{
+    list-style-position: inside;
+    padding: 8px 0;
+}
+
+#CSS_Selectors #left-list{
+    width: max-content;
+}
+
+#CSS_Selectors li{
+    padding: 8px 0;
+}
+
+#CSS_Selectors a{
+    color: #038e13;
+    font-weight: bold;
+}
+
+#CSS_Selectors a:hover{
+    text-decoration: none;
+    font-size: large;
+}
+
+#CSS_Selectors #right-list{
+    width: max-content;
+    margin-top: -213px;
+    margin-left: 250px;
+}
+
+#css_background_syntax{
+    background-color: rgba(231, 231, 231, 0.667);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table td a{
+    color: #038e13;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table td a:hover{
+    text-decoration: underline;
+}
+
+.property{
+    width: 32%;
+}
+
+#Reference li{
+    padding: 5px 0;
+}
+
+#Reference a{
+    text-decoration: underline;
+    color: #038e13;
+}
+
+#Reference a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 950px) {
+    #navbar{
+        width: 180px;
+    }
+
+    #main-header{
+        padding: 15px 5px;
+    }
+    
+    #main-doc{
+        margin-left: 210px; 
+        width: 68%;
+        overflow: hidden;
+    }
+    
+    #container{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 690px) {
+    #main-header{
+        padding: 8px 4px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #main-doc{
+        margin-left: 210px; 
+        width: fit-content;
+        overflow: hidden;
+    }
+    
+    #container{
+        margin: 0 10px;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    #CSS_Selectors #right-list{
+        width: max-content;
+        margin-top: -213px;
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 690px) {
+    #nav-links{
+        display: none;
+    }
+
+    #navbar{
+        border-right: none;
+        position: absolute;
+        width: 100%;
+    }
+
+    #main-header{
+        padding: 20px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #main-doc{
+        margin-left: 0; 
+        width: fit-content;
+        margin-top: 45px;
+        overflow: hidden;
+    }
+    
+    #container{
+        margin: 0 10px;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    #CSS_Selectors #right-list{
+        width: max-content;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
