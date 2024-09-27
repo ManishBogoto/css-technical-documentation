@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Documentation</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="main-header">
+            <h1>CSS Documentation</h1>
+        </header>
+        <ul id="nav-links">
+            <li>
+                <a class="nav-link" href="#What_is_CSS?">What is CSS?</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Prerequisites_to_Learn_CSS">Prerequisites to Learn CSS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Different_Ways_to_Use_CSS">Different Ways to Use CSS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#CSS_Syntax">CSS Syntax</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#CSS_Selectors">CSS Selectors</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#CSS_Comments">CSS Comments</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#CSS_Background">CSS Background</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Reference">Reference</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <div id="container">
+            <section class="main-section" id="What_is_CSS?">
+                <header>
+                    <h2>What is CSS?</h2>
+                </header>
+                <div class="section-info">
+                    <p>CSS, or Cascading Style Sheets, is a language used to style and enhance websites. It controls how
+                        HTML elements—such as text, images, and buttons—are displayed on a webpage. With CSS, you can
+                        adjust
+                        font sizes and colors, add backgrounds, and manage the layout, transforming a basic webpage into
+                        a
+                        visually appealing and user-friendly experience. CSS also simplifies layout management across
+                        multiple web pages by using external stylesheets stored in CSS files.</p>
+                    <p>HTML uses tags and CSS uses rulesets. CSS styles are applied to the HTML element using selectors.
+                        CSS is easy to learn and understand, but it provides powerful control over the presentation of
+                        an HTML document.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Prerequisites_to_Learn_CSS">
+                <header>
+                    <h2>Prerequisites to Learn CSS</h2>
+                </header>
+                <div class="section-info">
+                    <p>Before start learning CSS, it is essential to have a basic understanding of HTML or any markup
+                        language and familiar with computer, and basic working knowledge with files or directory.</p>
+                    <p>If you are new to HTML and XHTML, then we would suggest you to go through our HTML or XHTML
+                        Tutorial first.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Different_Ways_to_Use_CSS">
+                <header>
+                    <h2>Different Ways to Use CSS</h2>
+                </header>
+                <div class="section-info">
+                    <h4>CSS has three ways to style the HTML: </h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.geeksforgeeks.org/inline-css"><strong>Inline CSS:</strong></a> Inline
+                            CSS are directly applied on the
+                            HTML elements and it is the most prioritize CSS amonth these three. This will override any
+                            external or internal CSS.
+                        </li>
+                        <li>
+                            <a href="https://www.geeksforgeeks.org/internal-css"><strong>Internal CSS:</strong></a>
+                            Internal CSS are defined in the HTML head
+                            section inside of <code><strong>style</strong></code> tag to let the browser know where to
+                            look for the CSS.
+                        </li>
+                        <li>
+                            <a href="https://www.geeksforgeeks.org/external-css"><strong>External CSS:</strong></a>
+                            External CSS are defined in a separate file
+                            that contains only CSS properties, this is the recomended way to use CSS when you are
+                            working on projects. It is easy to maintain
+                            and multiple CSS files can be created and you can use them by improting it into your HTML
+                            document using HTML <code><strong>link</strong></code> tag.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main-section" id="CSS_Syntax">
+                <header>
+                    <h2>CSS Syntax</h2>
+                </header>
+                <div class="section-info">
+                    <h4>Following is the syntax of styling using CSS: </h4>
+                    <img src="./css_syntax.png" alt="CSS syntax" />
+                    <ul>
+                        <li>
+                            <strong>Selector: </strong>CSS selectors are used to select the HTML element or groups of
+                            elements
+                            you want to style on a web page.
+                        </li>
+                        <li>
+                            <strong>Property: </strong>A CSS property is an aspect or characteristic of an HTML element
+                            that can be styled or modified using CSS,
+                            such as color, font-size, or margin.
+                        </li>
+                        <li>
+                            <strong>Value: </strong> Values are assigned to properties. For example, color property can
+                            have
+                            value like red, green etc.
+                        </li>
+                    </ul>
+                    <h4><strong>For Example: </strong></h4>
+                    <code><img src="./css_syntax_eg.jpg" alt="CSS syntax example" /></code>
+                </div>
+            </section>
+
+            <section class="main-section" id="CSS_Selectors">
+                <header>
+                    <h2>CSS Selectors</h2>
+                </header>
+                <div class="section-info">
+                    <p>CSS selectors target the HTML elements on your pages, allowing you to add styles based on their
+                        ID, class, type,
+                        attribute, and more. This guide will help you to understand the intricacies of CSS selectors and
+                        their important role in enhancing the
+                        user experience of your web pages. Understanding these selectors—such as the universal selector,
+                        attribute selector, pseudo-class selector,
+                        and combinator selectors—enables more efficient and dynamic web design.</p>
+                    <h4>Types of CSS Selectors</h4>
+                    <ul id="left-list">
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#universal_selectors">Universal
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#element_selectors">Element
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#class_selectors">Class
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#id_selectors">Id Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#attribute_selectors">Attribute
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#group_selectors">Group
+                                Selectors</a>
+                        </li>
+                    </ul>
+                    <ul id="right-list">
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#pseudo-element_selectors">Pseudo-element
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#pseudo-class_selectors">Pseudo-class
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#descendant_selectors">Descendant
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#child_selectors">Child
+                                Selectors</a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#adjacent_sibling_selectors">Adjacent
+                                Sibling Selectors </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/css/css_selectors.htm#general_sibling_selectors">General
+                                Sibling Selectors </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main-section" id="CSS_Comments">
+                <header>
+                    <h2>CSS Comments</h2>
+                </header>
+                <div class="section-info">
+                    <p>Comments can be used to explain your CSS code, give other developers or yourself context, and
+                        temporarily turn off specific
+                        pieces of code without completely removing them. They start with /* and end with */ and can be
+                        used for both single-line and multi-line comments. </p>
+                    <p>Comments are ignored by browsers, so they won’t affect how your webpage looks or works. Comments
+                        can be added anywhere in the code, and they can span
+                        across multiple lines. It’s a good practice to add comments to clarify complex parts of your
+                        code for future reference or collaboration.</p>
+                    <p><strong>For Example: </strong></p>
+                    <code><img src="./css_comment.png" alt="CSS Comment Example" /></code>
+                </div>
+            </section>
+
+            <section class="main-section" id="CSS_Background">
+                <header>
+                    <h2>CSS Background</h2>
+                </header>
+                <div class="section-info">
+                    <p>
+                        The background property of CSS is used to set the background of an element. It can be used to
+                        apply a single background
+                        image or multiple background images. The CSS background property is a shorthand for setting
+                        multiple background properties
+                        in one declaration, including background color, image, position, size, repeat, origin, clip, and
+                        attachment. This property
+                        is essential for customizing the visual appearance of elements.
+                    </p>
+                    <h4>CSS Background syntax</h4>
+                    <p id="css_background_syntax">
+                        <code>background = background-color | bg-image | bg-position / bg-size | repeat-style | attachment | box;</code>
+                    </p>
+                    <h4><strong>For Example: </strong></h4>
+                    <code><img src="./css_background_eg.png" alt="CSS Background Example" /></code>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Background Property</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-color-property/#:~:text="
+                                        target="_blank">Background-color Property</a>
+                                </td>
+                                <td>The background-color property in CSS is used to specify the background color of an
+                                    element.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-image-property"
+                                        target="_blank">CSS Background-image Property</a>
+                                </td>
+                                <td>The background-image property is used to set one or more background images to an
+                                    element.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-repeat-property/#:~:text=The%20background%2Drepeat%20property%20in,will%20be%20repeated%20or%20not.&text="
+                                        target="_blank">CSS Background-repeat Property</a>
+                                </td>
+                                <td>The background-repeat property in CSS is used to repeat the background image both
+                                    horizontally and vertically.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-attachment-property/#:~:text="
+                                        target="_blank">CSS Background-attachment Property</a>
+                                </td>
+                                <td>The background-attachment property in CSS is used to specify the kind of attachment
+                                    of the background
+                                    image with respect to its container.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-position-property"
+                                        target="_blank">CSS Background-position Property</a>
+                                </td>
+                                <td>In CSS body-position property is mainly used to set an image at a certain position.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-origin-property"
+                                        target="_blank">CSS Background-origin Property</a>
+                                </td>
+                                <td>The background-origin is a property defined in CSS which helps in adjusting the
+                                    background image of the webpage.</td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <a href="https://www.geeksforgeeks.org/css-background-clip-property"
+                                        target="_blank">CSS Background-clip Property</a>
+                                </td>
+                                <td>The background-clip property in CSS is used to define how to extend the background
+                                    (color or image) within an element.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="main-section" id="Reference">
+                <header>
+                    <h2>Reference</h2>
+                </header>
+                <div class="section-info">
+                    <p>All the documentation in this page is taken from the following sites: </p>
+                    <ul>
+                        <li><a href="https://www.tutorialspoint.com/css/index.htm">tutorialspoint</a></li>
+                        <li><a href="https://www.geeksforgeeks.org/css-tutorial/?ref=lbp">GeeksforGeeks</a></li>
+                        <li><a href="//www.javatpoint.com/css-tutorial">Javatpoint</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
